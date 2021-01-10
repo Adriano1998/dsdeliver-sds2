@@ -1,10 +1,8 @@
 import React from 'react';
-  import { ToastContainer, toast } from 'react-toastify';
+  import { ToastContainer } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
 import Routes from './Routes';
 
 function App() {

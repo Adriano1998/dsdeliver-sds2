@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { fetchProducts, saveOrder } from '../api';
 import Footer from '../Footer';
 import { checkIsSelected } from './helpers';
-import {ReactComponent as Logo} from './logo.svg'
 import OrderLocation from './OrderLocation';
 import OrderSummary from './OrderSummary';
 import ProductsList from './Products.List';

@@ -1,7 +1,5 @@
 import { checkIsSelected } from './helpers';
-import {ReactComponent as Logo} from './logo.svg'
 import ProductCard from './ProductCard';
-import StepsHeader from './StepsHeader';
 import { Product } from './types';
 
 type Props = {

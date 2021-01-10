@@ -1,4 +1,3 @@
-import {ReactComponent as Logo} from './logo.svg'
 import './styles.css';
 import {ReactComponent as YouTubeIcon} from './youtube.svg';
 import {ReactComponent as LinkedinIcon} from './linkedin.svg';
