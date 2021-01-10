@@ -26,7 +26,7 @@ function Orders(){
     }, [] );
 
     const handleSelectProduct = (product: Product) => {
-      const isAlreadySelected = checkIsSelected(selectedProducts, product);
+    const isAlreadySelected = checkIsSelected(selectedProducts, product);
     
       if (isAlreadySelected) {
         const selected = selectedProducts.filter(item => item.id !== product.id);
@@ -64,8 +64,10 @@ function Orders(){
         />
         <OrderLocation onChangeLocation={location => setOrderLocation(location)}/>
         <OrderSummary amount={selectedProducts.length} 
-        totalPrice={totalPrice}/>
-        onsubmit={handleSubmit}
+        totalPrice={totalPrice}
+        onSubmit={handleSubmit}
+        />
+        
        </
      div>
      <Footer/>

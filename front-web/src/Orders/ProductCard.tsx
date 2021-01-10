@@ -3,7 +3,7 @@ import { formatPrice } from './helpers';
 import { Product } from './types';
 
 type Props= {
-    product: Product
+    product: Product;
     onSelectProduct: (product: Product) => void;
     isSelected: boolean;
 }
