@@ -1,4 +1,3 @@
-import { ReactComponent as Logo } from './logo.svg'
 import './styles.css';
 import { ReactComponent as MainImage } from './main.svg';
 import Footer from '../Footer';
